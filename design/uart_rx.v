@@ -1,26 +1,3 @@
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: TADAKAMALLA GOURAV
-// 
-// Create Date: 04/10/2024 10:02:32 AM
-// Design Name: UART RECIEVING LOGIC FOR RECIEVING THE DATA
-// Module Name: UART_RECIEVER
-// Project Name: UART PROTOCOL 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-
-
-
-
-
-
 module uart_reciever(input clk,rst,rx,rdy_clr,clken,output reg  rdy,output reg [7:0] data_out);
 
 always@(posedge clk)
