@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: TADAKAMALLA GOURAV
-// 
-// Create Date: 04/10/2024 10:02:32 AM
-// Design Name: UART TRANSMITTER LOGIC FOR SENDING THE DATA
-// Module Name: UART_SENDER
-// Project Name: UART PROTOCOL 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module uart_sender(input clk,wr_en,enb,rst,input [7:0] data_in,output reg tx,output tx_busy);
 
 always @(posedge clk)
