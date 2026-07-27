@@ -1,26 +1,4 @@
     `timescale 1ns / 1ps
-    //////////////////////////////////////////////////////////////////////////////////
-    // Company: 
-    // Engineer: TADAKAMALLA GOURAV
-    // 
-    // Create Date: 04/10/2024 10:02:32 AM
-    // Design Name: CLOCK GENERATION LOGIC FOR GIVEN BAUD RATE
-    // Module Name: baud_rate_genrator
-    // Project Name: UART PROTOCOL 
-    // Target Devices: 
-    // Tool Versions: 
-    // Description: 
-    // 
-    // Dependencies: 
-    // 
-    // Revision:
-    // Revision 0.01 - File Created
-    // Additional Comments:
-    // 
-    //////////////////////////////////////////////////////////////////////////////////
-    
-    
-    
     //CLOCK GENERATION LOGIC FOR ACHIEVING A BAUD RATE OF 9600 
     module baud_rate_genrator(input clock,reset,output reg enb_tx,enb_rx
     
